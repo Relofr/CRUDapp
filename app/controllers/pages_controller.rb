@@ -3,8 +3,10 @@ class PagesController < ApplicationController
   end
 
   def authors
+    @blogs = Blog.all
   end
 
   def titles
+    @blogs = Blog.all
   end
 end
